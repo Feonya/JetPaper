@@ -1,0 +1,9 @@
+.vs/
+Library/
+obj/
+Packages/
+Temp/
+Assets/Plugins/iOS/
+
+*.csproj
+*.sln
