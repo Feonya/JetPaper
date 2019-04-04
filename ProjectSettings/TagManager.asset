@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Plane
+  - Ground
+  - RoadBlockTrap
+  - Ads
+  - RoadBlock
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Buildings
+  - Clouds
+  - Plane
+  - Player
+  - ThingsDontCollidePlane
+  - RoadBlock
+  - Car
+  - ThingsDontColliderPlayerAndPlane
+  - RoadBlockTrap
+  - Coins
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 404261565
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 458558967
+    locked: 0
+  - name: Enemy
+    uniqueID: 3918782899
+    locked: 0
+  - name: Item
+    uniqueID: 2387025957
+    locked: 0
+  - name: Plane
+    uniqueID: 736337941
+    locked: 0
+  - name: GiantRightLeg
+    uniqueID: 3328601705
+    locked: 0
+  - name: Foreground
+    uniqueID: 1284864341
+    locked: 0

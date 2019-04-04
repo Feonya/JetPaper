@@ -1,0 +1,67 @@
+-ignorewarnings
+-keep class com.yodo1.advert.** { *; }
+-keep class com.yodo1ads.adapter.** { *; }
+-keep class com.ironsource.** { *; }
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class com.mintegral.** {*; }
+-keep interface com.mintegral.** {*; }
+-keep class android.support.v4.** { *; }
+-dontwarn com.mintegral.**
+-keep class **.R$* { public static final int mobvista*; }
+-keep class com.alphab.** {*; }
+-keep interface com.alphab.** {*; }
+-keep class com.qq.e.** {
+    public protected *;
+}
+-keep class android.support.v4.app.NotificationCompat**{
+    public *;
+}
+-keep enum mobi.oneway.sdk.* {*;}
+-keep class mobi.oneway.sdk.** {*;}
+-dontwarn com.liulishuo.okdownload.**
+-keep class com.liulishuo.okdownload.core.breakpoint.BreakpointStoreOnSQLite {
+    public com.liulishuo.okdownload.core.breakpoint.DownloadStore createRemitSelf();
+    public com.liulishuo.okdownload.core.breakpoint.BreakpointStoreOnSQLite(android.content.Context);
+}
+-keepnames class com.liulishuo.okdownload.core.connection.DownloadOk
+
+-keep class com.uniplay.adsdk.** {*;}
+-keep class com.bytedance.sdk.openadsdk.** { *; }
+-keep class com.ss.android.crash.log.** { *; }
+-keep class com.androidquery.callback.** {*;}
+-keep class com.ksc.ad.sdk.** { *; }
+-keepattributes SourceFile,LineNumberTable
+-keepattributes JavascriptInterface
+-keep class android.webkit.JavascriptInterface {
+   *;
+}
+-keep class com.unity3d.ads.** {
+   *;
+}
+-keep class com.vungle.warren.** { *; }
+-dontwarn com.vungle.warren.error.VungleError$ErrorCode
+-keep class com.moat.** { *; }
+-dontwarn com.moat.**
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+-dontwarn okio.**
+-dontwarn retrofit2.Platform$Java8
+-keepattributes Signature
+-dontwarn sun.misc.**
+-keep class com.google.gson.examples.android.model.** { *; }
+-keep class * implements com.google.gson.TypeAdapterFactory
+-keep class * implements com.google.gson.JsonSerializer
+-keep class * implements com.google.gson.JsonDeserializer
+-keep class com.google.android.gms.internal.** { *; }
+-dontwarn com.google.android.gms.ads.identifier.**
+-dontwarn com.tapjoy.**
+-keep class com.tapjoy.** { *; }
+-keep class com.moat.** { *; }
+-keep class js.** { *; }
+-dontwarn com.facebook.**
+-keep class com.facebook.** { *; }
+-keep class com.google.ads.** { *; }
+
