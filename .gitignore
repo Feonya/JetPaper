@@ -7,3 +7,5 @@ Assets/Plugins/iOS/
 
 *.csproj
 *.sln
+
+.gitignore
