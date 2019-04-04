@@ -8,3 +8,6 @@ You could download it on TapTap, Vivo, Oppo, Meizu or M4399 game market.
 ![image](https://github.com/Feonya/JetPaper/blob/master/pic1.jpg)
 ![image](https://github.com/Feonya/JetPaper/blob/master/pic2.jpg)
 ![image](https://github.com/Feonya/JetPaper/blob/master/pic3.jpg)
+
+# Gameplay demo video
+https://www.bilibili.com/video/av37971307
